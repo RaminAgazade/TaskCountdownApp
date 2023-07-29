@@ -88,6 +88,11 @@ class NewTaskViewController: UIViewController {
     
     //MARK: - Outlets & objc functions
     @IBAction func startButtonPressed(_ sender: Any) {
+        guard let timerVC = self.storyboard?.instantiateViewController(withIdentifier: TimerViewController.description()) as? TimerViewController
+        else { return }
+        taskViewModel.computeSeconds()
+        timerVC.taskViewModel = taskViewModel
+        self.present(timerVC, animated: true)
     }
     
     @IBAction func multiplyButtonPressed(_ sender: Any) {

@@ -15,15 +15,6 @@ class TaskTypeCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var typeName: UILabel!
     
-    
-    
-    
-// MARK: - variables
-    
-    
-    
-    
-
 
 // MARK: - lifeCycle
     
@@ -55,7 +46,7 @@ override func awakeFromNib() {
         self.typeName.text = taskType.typeName
         if (isSelected) {
             self.imageContainerView.backgroundColor = UIColor(hex: "0a0a0a").withAlphaComponent(0.5)
-            self.typeName.textColor = UIColor(hex: "006666")
+            self.typeName.textColor = UIColor(hex: "0a0a0a")
             self.imageView.tintColor = UIColor.white
             self.imageView.image = UIImage(systemName: taskType.symbolName, withConfiguration: UIImage.SymbolConfiguration(pointSize: 24, weight: .medium))
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE2647462A68331B00C25420 /* TaskTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2647442A68331B00C25420 /* TaskTypeCollectionViewCell.swift */; };
 		DE2647472A68331B00C25420 /* TaskTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE2647452A68331B00C25420 /* TaskTypeCollectionViewCell.xib */; };
+		DEB433232A71663A000DF9F5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB433222A71663A000DF9F5 /* TimerViewController.swift */; };
 		DEC0D4312A65D8C900427234 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0D4302A65D8C900427234 /* NewTaskViewController.swift */; };
 		DEDF7E322A6584B70037E9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF7E312A6584B70037E9F9 /* AppDelegate.swift */; };
 		DEDF7E342A6584B70037E9F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF7E332A6584B70037E9F9 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		DE2647442A68331B00C25420 /* TaskTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DE2647452A68331B00C25420 /* TaskTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEB433222A71663A000DF9F5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		DEC0D4302A65D8C900427234 /* NewTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 		DEDF7E2E2A6584B70037E9F9 /* TaskCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDF7E312A6584B70037E9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,7 +130,6 @@
 				DEDF7E4B2A6586E10037E9F9 /* Controllers */,
 				DEDF7E4D2A6587C30037E9F9 /* Models */,
 				DEDF7E492A6586190037E9F9 /* Modules */,
-				DEDF7E4E2A6587D50037E9F9 /* Services */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -150,6 +151,7 @@
 				DEDF7E712A6594A00037E9F9 /* ViewModels */,
 				DEDF7E352A6584B70037E9F9 /* MainViewController.swift */,
 				DEC0D4302A65D8C900427234 /* NewTaskViewController.swift */,
+				DEB433222A71663A000DF9F5 /* TimerViewController.swift */,
 				DEDF7E372A6584B70037E9F9 /* Main.storyboard */,
 			);
 			path = Main;
@@ -161,13 +163,6 @@
 				DEDF7E6E2A6592A40037E9F9 /* Task.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		DEDF7E4E2A6587D50037E9F9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		DEDF7E4F2A6588700037E9F9 /* Extensions */ = {
@@ -327,6 +322,7 @@
 				DEDF7E322A6584B70037E9F9 /* AppDelegate.swift in Sources */,
 				DEDF7E3C2A6584B70037E9F9 /* TaskCountdown.xcdatamodeld in Sources */,
 				DEDF7E342A6584B70037E9F9 /* SceneDelegate.swift in Sources */,
+				DEB433232A71663A000DF9F5 /* TimerViewController.swift in Sources */,
 				DEDF7E6F2A6592A40037E9F9 /* Task.swift in Sources */,
 				DEDF7E6D2A6590420037E9F9 /* Constants.swift in Sources */,
 			);
